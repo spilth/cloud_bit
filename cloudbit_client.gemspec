@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = CloudbitClient::VERSION
   spec.authors       = ["Brian Kelly"]
   spec.email         = ["polymonic@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Gem for talking to littleBit's CloudBit.}
+  spec.homepage      = "https://github.com/spilth/cloudbit_client"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
