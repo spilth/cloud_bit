@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/spilth/cloudbit_client.svg?branch=master)](https://travis-ci.org/spilth/cloudbit_client)
+
 # CloudbitClient
 
 TODO: Write a gem description
