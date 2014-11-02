@@ -2,11 +2,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require './lib/cloudbit_client'
-
 Gem::Specification.new do |spec|
   spec.name          = "cloudbit_client"
-  spec.version       = CloudbitClient::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Brian Kelly"]
   spec.email         = ["polymonic@gmail.com"]
   spec.summary       = %q{Gem for talking to littleBit's CloudBit.}

@@ -1,8 +1,6 @@
 require 'rest_client'
 
 class CloudbitClient
-  VERSION = "0.0.1"
-
   def initialize(access_token, device_id)
     @access_token = access_token
     @device_id = device_id
