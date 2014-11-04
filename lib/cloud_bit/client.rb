@@ -10,11 +10,11 @@ module CloudBit
       @device_id = device_id
     end
 
-    def output(percent, duration)
+    def output(percent = 100, duration_ms = 3000)
       RestClient.post "#{API_URL}/devices/#{device_id}/output",
         {
-          :percent => percent.to_s,
-          :duration_ms => duration.to_s
+          :percent => percent,
+          :duration_ms => duration_ms
         },
         Accept: "application/vnd.littlebits.#{API_VERSION}+json",
         Authorization: "Bearer #{access_token}"
