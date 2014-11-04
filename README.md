@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/spilth/cloudbit_client.svg?branch=master)](https://travis-ci.org/spilth/cloudbit_client)
+[![Build Status](https://travis-ci.org/spilth/cloud_bit.svg?branch=master)](https://travis-ci.org/spilth/cloud_bit)
 
-# CloudbitClient
+# CloudBit
 
 A Ruby Gem for sending output to a [littleBits CloudBit](http://littlebits.cc/bits/cloudbit).
 
@@ -8,7 +8,7 @@ A Ruby Gem for sending output to a [littleBits CloudBit](http://littlebits.cc/bi
 
 Add this line to your application's Gemfile:
 
-    gem 'cloudbit_client'
+    gem 'cloud_bit'
 
 And then execute:
 
@@ -16,19 +16,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cloudbit_client
+    $ gem install cloud_bit
 
 ## Usage
 
-    require 'cloudbit_client'
-    cloudbit = CloudbitClient.new('your-access-token', 'your-device-id')
+    require 'cloud_bit'
+    cloudbit = CloudBit::Client.new('your-access-token', 'your-device-id')
     cloudbit.output(100, 3000)
 
 You can get your Access Token and Device ID from the Settings page of the [littleBits CloudBit Control Panel](http://control.littlebitscloud.cc)
 
 ## Contributing
 
-1. Fork it ( http://github.com/spilth/cloudbit_client/fork )
+1. Fork it ( http://github.com/spilth/cloud_bit/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
